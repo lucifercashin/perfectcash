@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Perfect Cash - Dashboard</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <aside class="sidebar">
+        <nav>
+            <a href="#">Дашборд</a>
+            <a href="#">Входящие платежи</a>
+            <a href="#">Реквизиты</a>
+            <a href="#">Кошелек</a>
+            <a href="#">Аналитика</a>
+            <a href="#">Споры</a>
+            <a href="#">Устройства</a>
+            <a href="#">СМС</a>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <div class="user-id">ID 387</div>
+        <section class="balance-header">
+            <span class="balance">Баланс: 0 USDT</span>
+            <button>Пополнить баланс</button>
+        </section>
+
+        <h2 class="statistics">Статистика за 30 дней</h2>
+        <section class="stats-grid">
+            <div class="stat-box">Кол-во ордеров: 0</div>
+            <div class="stat-box">Оборот (USDT): 0</div>
+            <div class="stat-box">Процент выполненных: 0%</div>
+            <div class="stat-box">Доход (USDT): 0</div>
+        </section>
+
+        <h3 class="recent-trades">Последние сделки</h3>
+    </main>
+</body>
+</html>
